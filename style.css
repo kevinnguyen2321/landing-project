@@ -1,0 +1,57 @@
+.header {
+    border: solid black;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.header-links {
+    display: flex;
+    border: solid brown;
+    margin-right: 75px;
+    gap: 16px;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.content {
+    border: solid blue;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side {
+    border:  solid green;
+    width: 350px;
+}
+
+
+
+
+
+.main-text {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text,
+.links {
+ font-size: 18px;
+  color: #F9FAF8;
+}
+
+.left-side button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 19px;
+    border: #F9FAF8;
+}
