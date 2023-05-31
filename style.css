@@ -1,3 +1,16 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
 .header {
     background-color: #576b83;
     display: flex;
@@ -90,7 +103,7 @@
 
 .images-container {
     display: flex;
-    gap: 8px;
+    gap: 12px;
 }
 
 .middle-images img {
@@ -121,8 +134,11 @@ font-style: italic;
 }
 
 .credit {
-    align-self: center;
+    align-self: flex-end;
     margin-right: 500px;
+    padding-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -165,10 +181,9 @@ font-style: italic;
 
 
 .footer {
-    border: solid black;
     background-color: #576b83;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 75px;
 }
